@@ -20,14 +20,14 @@
     fzf-git-sh-package = pkgs.writeShellScriptBin "fzf-git.sh" (builtins.readFile fzf-git-sh);
     ethereum-nix-pkgs = ethereum-nix.packages.${system};
   in {
-    homeConfigurations.vaporif = 
+    homeConfigurations.craig = 
       home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
         modules = [ 
           {
             home = {
-              username = "vaporif";
-              homeDirectory = "/Users/vaporif";
+              username = "craig";
+              homeDirectory = "/Users/craig";
               stateVersion = "24.05";
             };
           }
