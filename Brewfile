@@ -1,5 +1,3 @@
-tap "homebrew/bundle"
-tap "homebrew/services"
 brew "gcc"
 brew "rust-analyzer"
 cask "alacritty"
