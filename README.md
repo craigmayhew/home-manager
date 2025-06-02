@@ -8,7 +8,7 @@ I'm also using brew for a few items that are not yet via nix.
 
 1. Clone this repo
 2. Install [homebrew](https://brew.sh/)
-3. Install packages via `brew budle`
+3. Install packages via `brew bundle`
 4. Install [nix](https://nixos.org/download) with [flakes](https://github.com/mschwaig/howto-install-nix-with-flake-support)
 5. Install [home-manager](https://github.com/nix-community/home-manager)
 6. Run the initial setup which will build all the derivations which may take a while. `nix flake`
