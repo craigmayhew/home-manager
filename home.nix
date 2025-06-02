@@ -50,7 +50,7 @@
         plugins = [ "git" "rust" ];
         theme = "robbyrussell";
       };
-      initExtra = ''
+      initContent = ''
         ${builtins.readFile ./.zshrc}
         source ${fzf-git-sh-package}/bin/fzf-git.sh
       '';
