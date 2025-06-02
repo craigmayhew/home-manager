@@ -1,4 +1,5 @@
 brew "gcc"
+brew "pkg-config"
 brew "rust-analyzer"
 cask "alacritty"
 cask "firefox"
