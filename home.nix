@@ -2,7 +2,8 @@
   programs.home-manager.enable = true;
 
   home.packages = with pkgs; [
-    nerdfonts
+    pkgs.nerd-fonts.fira-code
+    pkgs.nerd-fonts.hack
     coreutils
     go-ethereum
     nixd
