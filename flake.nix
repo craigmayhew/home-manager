@@ -2,7 +2,7 @@
   description = "Home Manager configuration";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
     ethereum-nix.url = "github:nix-community/ethereum.nix";
     home-manager = {
       url = "github:nix-community/home-manager";
